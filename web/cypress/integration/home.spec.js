@@ -13,4 +13,20 @@ context("Home Page", () => {
     it("should find our get started message", () => {
         cy.get("p").contains("Get started by editing");
     })
+
+    it("should find Documentation", () => {
+        cy.get("h2").contains("Documentation");
+    })
+
+    it("should find Learn", () => {
+        cy.get("h2").contains("Learn");
+    })
+
+    it("should find Examples", () => {
+        cy.get("h2").contains("Examples");
+    })
+
+    it("should find Deploy", () => {
+        cy.get("h2").contains("Deploy");
+    })
 })
